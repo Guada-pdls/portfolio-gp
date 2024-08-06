@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Guadalupe Piva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="/"><img src="/img/logo.png" alt="Logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li class="here"><a href="/">Inicio</a></li>
+                <li class="other"><a href="/">Experiencia</a></li>
+                <li class="other"><a href="/">Sobre mí</a></li>
+                <li class="other"><a href="/">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="presentacion">
+        <h1 id="titulo">Hola, soy Guadalupe</h1>
+        <p>Soy una desarrolladora web apasionado por crear soluciones eficientes y elegantes.</p>
+    </section>
+
+
+    <section class="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro repudiandae praesentium, deserunt similique
+            natus, sunt maxime voluptate magnam itaque molestias ullam iure numquam delectus, in fuga placeat ab quae
+            sint dignissimos voluptatem aliquid? Omnis eum laborum vero explicabo reiciendis asperiores. Voluptatem,
+            ullam ea hic perferendis ducimus, sint laborum maxime fuga nam excepturi harum molestias sed accusamus quas
+            rerum eius perspiciatis?</p>
+    </section>
+
+    <section class="experiencia">
+        <h2>Experiencia</h2>
+        <div class="proyectos">
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
+                    iusto?.</p>
+                <img src="https://cdn.unotv.com/images/2023/11/gato-173700-1024x576.jpeg" alt="gatito">
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ad?.</p>
+                <img src="https://cdn.unotv.com/images/2023/11/gato-173700-1024x576.jpeg" alt="gatito">
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 3</h3>
+                <p>Descripción del proyecto 3, Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, et..
+                </p>
+                <img src="https://cdn.unotv.com/images/2023/11/gato-173700-1024x576.jpeg" alt="gatito">
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <form id="contacto" method="post">
+            <div class="campo-formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="campo-formulario">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="campo-formulario">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>
